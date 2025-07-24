@@ -38,7 +38,11 @@ Using the Zomato Restaurants Dataset, this project aims to uncover whether #*pri
           - Value_Score :  calculates the value score by dividing the aggregate rating by the average cost for two.
           - IsOverpriced flag : flags a restaurant as overpriced if the aggregate rating is less than 3.5 and the average cost for two is more than 1000
           - Cost Category (Low, Medium, High) : categorizes the average cost for two into Low, Medium, or High based on the following thresholds: Low: Less than 500, Medium: 500 to 999, High: 1000 or more
-          - 
+          - Booking + Delivery : formula combines the information on table booking and online delivery to analyze the service. It returns one of the following values:
+                        - Both: If both table booking and online delivery are available
+                        - Booking: If only table booking is available
+                        - Delivery: If only online delivery is available
+                        - Not Both: If neither table booking nor online delivery is available
 
 # 8. Visuals (Power BI):
 - Bar chart: Average Rating by Cost Category
