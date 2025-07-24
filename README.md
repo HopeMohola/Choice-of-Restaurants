@@ -32,6 +32,8 @@ Using the Zomato Restaurants Dataset, this project aims to uncover whether #*pri
 # 7. Data Preparation (Excel):
 - Removed duplicates and empty cells
 - Normalised cost_for_two values
+        - Convert Average Cost for two to numeric (remove commas if any using Find & Replace)
+        - Ensure Aggregate rating is numeric (not text)
 - Created New features : Value_Score = Rating / Cost, IsOverpriced flag, Cost Category (Low, Medium, High)
 
 # 8. Visuals (Power BI):
