@@ -30,7 +30,7 @@ Using the Zomato Restaurants Dataset, this project aims to uncover whether #*pri
 - Features used : Restaurant Name, Location, Cuisines, Average Rating, Cost for Two, Online Order, Book Table, Votes
 
 # 7. Data Preparation (Excel):
-- Removed duplicates and null values
+- Removed duplicates and empty cells
 - Normalised cost_for_two values
 - Created New features : Value_Score = Rating / Cost, IsOverpriced flag, Cost Category (Low, Medium, High)
 
