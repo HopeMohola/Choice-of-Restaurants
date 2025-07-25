@@ -47,14 +47,14 @@ Using the Zomato Restaurants Dataset, this project aims to uncover whether #*pri
 # 8. Visuals (Power BI):
 - Table(Overpriced Restaurants) to show worst-rated expensive restaurants (my “Avoid List”)
 - Bar Chart(Best Value by Cuisine) to show which cuisines consistently give you value for money?
-- Map: Top/Bottom-rated restaurants by city
+- Pie Chart(Impact of Booking & Delivery) to show whether or not customers rate delivery-friendly restaurants better?
 - Ranking Table: Top 10 Best Value Restaurants
 - Filters: Cuisine, Online Order, Booking Option, Cost Range
 
 # 9.  Findings :
 Some high-cost restaurants were rated below 3.5, Jakarta City topping the charts with a whooping 100000, indicating style over substance. Then the other cities that followed were New Delhi.
 Chinese, Mughlai, and North Indian cuisine consistently scored high on value in the high and medium cost category, in the low cost category North Indian, Fast Food and Chinese scored high.
-Restaurants with online ordering tend to have better ratings.
+None of the restaurants offer both table booking and delivery. There seems to be more restaurants that have no table booking(8.36k) and no online delivery(7.07K). Restaurants with online ordering tend to have better ratings but they also appear to have the highest worst ratings.
 A list of Top 10 underrated gems was created to guide future choices.
 
 # 10. Conclusion:
