@@ -49,6 +49,7 @@ Using the Zomato Restaurants Dataset, this project aims to uncover whether #*pri
 - Bar Chart(Best Value by Cuisine) to show which cuisines consistently give you value for money?
 - Pie Chart(Impact of Booking & Delivery) to show whether or not customers rate delivery-friendly restaurants better?
 - Map(City-Wise Insights) to see which cities offer the best dining value.
+- Table(Top Ten Restaurants) to see my go to list of restaurants. Low value score, High aggregate rating of greater than 4.2 and votes greater than 1000.
 - Filters: Cuisine, Online Order, Booking Option, Cost Range
 
 # 9.  Findings :
@@ -56,15 +57,18 @@ Some high-cost restaurants were rated below 3.5, Jakarta City topping the charts
 Chinese, Mughlai, and North Indian cuisine consistently scored high on value in the high and medium cost category, in the low cost category North Indian, Fast Food and Chinese scored high.
 None of the restaurants offer both table booking and delivery. There seems to be more restaurants that have no table booking(8.36k) and no online delivery(7.07K). Restaurants with online ordering tend to have better ratings but they also appear to have the highest worst ratings.
 I developed an interactive map that allows users to select a city, cuisine type, budget category(low, medium, high). The map also provides options to filter restaurants based on table booking, and online delivery availabilty, catering to bothdine-in and takeaway preferences. Upon selection, the map displays a list of recommended restaurants in the chosen city, along with their addressesand ratings. This feature provides users with a comprehensiveoverview of dining options, allowing them to make informed decisions about where they want to eat.
-A list of Top 10 underrated gems was created to guide future choices.
-
+A list of Top 10 underrated gems was created to guide future choices. It revealed 3 which are 
+        Restaurant Name	Aggregate rating	Sum of Average Cost for two	Sum of Votes	Value Score
+        Bukhara - ITC Maurya	4.4	6500	2826	0.0006769231
+        Talaga Sampireun	4.9	600000	5514	0.0000245000
+        Toodz House	4.6	165000	1476	0.0000278788
+        
 # 10. Conclusion:
 This project helped us turn a bad dinner into a smart data story. Next time we go out, we’ll choose food that’s actually worth the hype. Data doesn’t lie, ambiance might.
 
 # 10. Future steps :
 - Scrape aesthetic tags or photo metadata to build a visual-style predictor
 - Apply sentiment analysis to reviews
-- Build a mobile dashboard to rank restaurants nearby by value-for-money
 
 # 11. Challenges experienced:
 The currencies were different. So I might have a higher amount but it could be low in value.
