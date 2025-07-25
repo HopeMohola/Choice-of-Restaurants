@@ -45,14 +45,14 @@ Using the Zomato Restaurants Dataset, this project aims to uncover whether #*pri
                         - Not Both: If neither table booking nor online delivery is available
 
 # 8. Visuals (Power BI):
-- Bar chart: Average Rating by Cost Category
+- table to show worst-rated expensive restaurants (my “Avoid List”)
 - Heatmap: Cuisine vs. Rating
 - Map: Top/Bottom-rated restaurants by city
 - Ranking Table: Top 10 Best Value Restaurants
 - Filters: Cuisine, Online Order, Booking Option, Cost Range
 
 # 9.  Findings :
-Some high-cost restaurants were rated below 3.5, indicating style over substance.
+Some high-cost restaurants were rated below 3.5, Jakarta City topping the charts with a whooping 100000, indicating style over substance. Then the other cities that followed were New Delhi.
 Indian, Mughlai, and North Indian cuisine consistently scored high on value.
 Restaurants with online ordering tend to have better ratings.
 A list of Top 10 underrated gems was created to guide future choices.
@@ -64,6 +64,9 @@ This project helped us turn a bad dinner into a smart data story. Next time we g
 - Scrape aesthetic tags or photo metadata to build a visual-style predictor
 - Apply sentiment analysis to reviews
 - Build a mobile dashboard to rank restaurants nearby by value-for-money
+
+# 11. Challenges experienced:
+The currencies were different. So I might have a higher amount but it could be low in value.
 
 
 
